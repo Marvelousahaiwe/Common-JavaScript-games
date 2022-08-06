@@ -1,0 +1,35 @@
+.grid {
+  margin: 0;
+  width: 612px;
+  height: 612px;
+  display: flex;
+  flex-wrap: wrap;
+  border: 5px solid black;
+}
+
+.square {
+  height: 200px;
+  width: 200px;
+  border: 2px solid grey;
+}
+
+.mole {
+  background-color: blue;
+}
+
+.buttons {
+  margin: 20px;
+  height: 50px;
+}
+
+.start, .restart, .pause {
+  margin: 10px;
+  padding: 10px;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 5px;
+  align-items: center;
+}
+.start:hover, .restart:hover, .pause:hover{
+  font-weight: bold;
+}

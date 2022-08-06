@@ -1,0 +1,48 @@
+body {
+  background-color: rgb(228, 219, 219);
+}
+
+.choice {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 15px;
+}
+
+.computer-choice {
+  color: blue;
+}
+
+.user-choice {
+  color: green;
+}
+
+.result {
+  color: red;
+}
+
+span {
+  font-style: italic;
+}
+
+.result {
+  text-align: center;
+}
+
+button {
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 5px;
+  margin: 10px;
+  background-color: black;
+  color: aqua;
+  justify-content: center;
+}
+.ans{
+  margin-top: 50px;
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+
+}
